@@ -11,6 +11,7 @@
     <link href="css/default.css" type="text/css" rel="stylesheet">
     <link href="css/foot.css" type="text/css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/zaixianqq.css" type="text/css" rel="stylesheet">
 
     <script src="js/jquery-1.7.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
@@ -18,7 +19,7 @@
     <script>
         jQuery(document).ready(function() {
             $.versatileTouchSlider('#ex_shelf_full', {
-                slideWidth: 960, // some number. ex: 960 or '100%'
+                slideWidth: 1280, // some number. ex: 960 or '100%'
                 slideHeight: 'auto', // some number. ex: 220 or 'auto'
                 showPreviousNext: true,
                 currentSlide: 0,
@@ -41,61 +42,165 @@
 </head>
 
 <body>
-  <!--页头-->
-  <div class="head">
-    <i class="fa fa-leanpub" aria-hidden="true"></i> 时间的朋友 | 我的博物馆
-  </div>
-
-    <div class="sti_container" id="ex_shelf_full" style="margin-top:250px;">
+    <!--页头-->
+    <div class="head">
+        <i class="fa fa-leanpub" aria-hidden="true"></i> 时间的朋友 | 我的博物馆
+    </div>
+    <!--目录-->
+    <div class="htmleaf-header">
+			<div class="htmleaf-demo">
+				<a href="index.html" class="current"><i class="fa fa-book"></i> 读书 </a>
+				<a href="index-video.html"><i class="fa fa-file-video-o"></i> 观影 </a>
+				<a href="index-music.html"><i class="fa fa-music"></i> 聆听 </a>
+			</div>
+		</div>
+    <!--书架-->
+    <div class="sti_container" id="ex_shelf_full" style="margin-top:40px;">
         <div class="sti_slider">
             <div class="sti_items">
 
                 <!-- SLIDE GROUP 1 -->
                 <div class="sti_slide">
                     <div class="sti_shelf_divider"></div>
-
                     <div class="sti_prod">
-                        <img src="image/banner_full_1_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/h1.jpg" class="link video sti_lightbox" data-type="video-vimeo" data-size="700x394" title="Lamborghini Aventador"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_2_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/h2.jpg" class="link video sti_lightbox" data-type="video-youtube" data-size="700x420" title="Youtube Video (For The Birds / PIXAR)"></a>
-                        <a href="#" class="ribbon ribbon_green" title="Ribbon"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_3_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/h3.jpg" class="link video sti_lightbox" data-type="video-vimeo" data-size="700x394" title="Vimeo Video"></a>
-                        <a href="#" class="ribbon ribbon_red" title="Ribbon"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_4_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/h4.jpg" class="link audio sti_lightbox" data-type="audio" data-size="450x50" title="Audio Example. HTML5 Support / Flash Fallback"></a>
-                        <a href="#" class="ribbon ribbon_green" title="Ribbon"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_5_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/h5.jpg" class="link video sti_lightbox" data-type="video" data-size="540x303" title="MP4 Video. HTML5 Support / Flash Fallback"></a>
-                        <a href="#" class="ribbon ribbon_orange" title="Ribbon"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_1_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/h1.jpg" class="link zoom sti_lightbox" data-type="image" title="Lightbox image example"></a>
+                        <img src="image/pinfandeshijie.jpeg" alt="" width="110" height="150">
+                        <a href="http://ogudt6aal.bkt.clouddn.com/image/%E4%BA%BA%E6%9C%BA%E5%A4%A7%E6%88%98.jpeg" class="link zoom sti_lightbox" data-type="image" data-size="700x394" title="这是一本书的名字"></a>
                         <a href="#" class="ribbon ribbon_blue" title="Ribbon"></a>
                     </div>
                     <div class="sti_prod">
-                        <img src="image/banner_full_2_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/v1.jpg" class="link audio sti_lightbox" data-type="audio" data-size="450x50" title="Audio Example 2. HTML5 Support / Flash Fallback"></a>
+                        <img src="image/guanniandeshuiwei.jpeg" alt="" width="110" height="150">
                     </div>
                     <div class="sti_prod">
-                        <img src="image/banner_full_2_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/v1.jpg" class="link audio sti_lightbox" data-type="audio" data-size="450x50" title="Audio Example 2. HTML5 Support / Flash Fallback"></a>
+                        <img src="image/kanjian.jpg" alt="" width="110" height="150">
                     </div>
                     <div class="sti_prod">
-                        <img src="image/banner_full_2_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://www.kaiwo123.com/ad/v1.jpg" class="link audio sti_lightbox" data-type="audio" data-size="450x50" title="Audio Example 2. HTML5 Support / Flash Fallback"></a>
+                        <img src="image/yiriyishan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/yujianweizhideziji.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/aishanglangman.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/qinwenyusushuo.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/xiegeiwushenlunzhe.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/shenfendejiaolv.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhexuedeweijie.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/wuliaodemeili.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/jichanglidexiaolvxing.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/langtuteng.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/aiqingbiji.jpeg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/sahaladeyanlei.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/sufeideshijie.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/chenmodedaduoshu.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/yinweitongsuiyijiaoqinchun.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/jijifujiji.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhuanyezhuyi.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/yikejingjixue.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/mozheshitouguohe.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/nidegudusuibaiyourong.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/shuideqinchunbumimang.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/langxianoingshuowomenderiziweishenmezhemenan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/langxianoingshuoxindiguozhuyizaizhongguo.jpeg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhongguoqiyemeixilema1.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhongguoqiyemeixilema2.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/shumadanfansheying1.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/shumadanfansheying2.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/kaisazhuan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/luosifuzhuan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/aiyinsitanzhuan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/tulinzhuan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/shikong.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/shijieweihecunzai.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/guaimomotou.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/ruguonixiangguobaifenzhiyideshenghuo.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/fancuiruo.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/yaobai.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/jianzhudeyonghengzhidao.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhushendechuanshuo.jpeg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/xinfudejianzhu.jpeg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhuzhaishejijiepaoshu.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhuangxiushejijiepaoshu.jpeg" alt="" width="110" height="150">
                     </div>
 
+                    <div class="sti_shelf_divider_bottom"></div>
                     <div class="sti_shelf_divider_bottom"></div>
                     <div class="sti_shelf_divider_bottom"></div>
                 </div>
@@ -103,55 +208,89 @@
                 <!-- SLIDE GROUP 2 -->
                 <div class="sti_slide">
                     <div class="sti_shelf_divider"></div>
+                    <div class="sti_prod">
+                        <img src="image/chongyuweizhideziji.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/tamenzuixinfu.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/emituofomomoda.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/yuwangxinlixue.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/xianglikaifuyiyangzuozuihaodeyuangong.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/zhongguoguomingxingyanbianlicheng.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/quweishenghuojianshi.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/xinwaichuanqi.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/heikeyuhuajia.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/daojingsizhuan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/jujuepingyong.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/jingzizhanzheng.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/caigentan.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/jijianyuzhoushi.jpg" alt="" width="110" height="150">
+                    </div>
+                    <div class="sti_prod">
+                        <img src="image/mingchaonaxieshi.jpg" alt="" width="110" height="150">
+                    </div>
 
-                    <div class="sti_prod">
-                        <img src="image/banner_full_1_thumb.jpg" alt="" width="110" height="150">
-                        <a href="#" class="link more" title="Title"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_2_thumb.jpg" alt="" width="110" height="150">
-                        <a href="content/audio/AirReview-Landmarks-02-ChasingCorporate.mp3" class="link audio sti_lightbox" data-type="audio" data-size="450x50" title="Audio Example. HTML5 Support / Flash Fallback"></a>
-                        <a href="#" class="ribbon ribbon_green" title="Ribbon"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_3_thumb.jpg" alt="" width="110" height="150">
-                        <a href="#" class="link more" title="Title"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_4_thumb.jpg" alt="" width="110" height="150">
-                        <a href="http://vimeo.com/53327926" class="link video sti_lightbox" data-type="video-vimeo" data-size="700x394" title="Vimeo Video"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_5_thumb.jpg" alt="" width="110" height="150">
-                        <a href="content/html/html_content.html" class="link content sti_lightbox" data-type="html-content" data-size="550x450" title="HTML Content"></a>
-                    </div>
-                    <div class="sti_prod">
-                        <img src="image/banner_full_1_thumb.jpg" alt="" width="110" height="150">
-                        <a href="#" class="link more" title="Title"></a>
-                        <a href="#" class="ribbon ribbon_red" title="Ribbon"></a>
-                    </div>
-
+                    <div class="sti_shelf_divider_bottom"></div>
                     <div class="sti_shelf_divider_bottom"></div>
                     <div class="sti_shelf_divider_bottom"></div>
                 </div>
             </div>
         </div>
-
+        <!--分页-->
         <div class="sti_paginate">
             <div class="sti_page"></div>
         </div>
     </div>
     <!--页脚-->
     <div class="foot">
-      <a href="http://51world.win" target="view_window"><i class="fa fa-home"></i>主页</a>
-       -
-      <a href="https://github.com/taketimeasafriend" target="view_window"><i class="fa fa-github"></i>Github</a>
-       -
-      <a href="http://weibo.com/miaoxiaogege" target="view_window"><i class="fa fa-weibo"></i>微博</a>
-       -
-      <a href="http://ogudt6aal.bkt.clouddn.com/image/whynotwangwei.jpeg" target="view_window"><i class="fa fa-weixin"></i>微信</a>
-       -
-      <a href="mailto:taketimeasafriend@gmail.com?subject=I%20want%20to%20say%20&body=Hello%20"><i class="fa fa-envelope"></i>邮箱</a>
+        <a href="http://51world.win" target="view_window"><i class="fa fa-home"></i>主页</a> -
+        <a href="https://github.com/taketimeasafriend" target="view_window"><i class="fa fa-github"></i>Github</a> -
+        <a href="http://weibo.com/miaoxiaogege" target="view_window"><i class="fa fa-weibo"></i>微博</a> -
+        <a href="http://ogudt6aal.bkt.clouddn.com/image/whynotwangwei.jpeg" target="view_window"><i class="fa fa-weixin"></i>微信</a> -
+        <a href="mailto:taketimeasafriend@gmail.com?subject=I%20want%20to%20say%20&body=Hello%20"><i class="fa fa-envelope"></i>邮箱</a>
     </div>
+
+    <!-- 吐槽代码部分begin -->
+    <div id='cs_box'>
+      <span class='cs_title'>-在线吐槽-</span>
+      <span class='cs_close'>x</span>
+      <div class='cs_img'></div>
+      <span class='cs_info'>有什么想哔哔？</span>
+      <div class='cs_btn'>点击开撩</div>
+    </div>
+    <script src="js/zaixianqq.js"></script>
+    <script>
+      myEvent(window,'load',function(){
+        cs_box.set({
+          qq : '1965354023',	//设置QQ号码
+        });
+      });
+    </script>
+    <!-- 吐槽代码部分end -->
 </body>
+
 </html>
